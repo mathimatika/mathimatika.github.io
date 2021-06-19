@@ -1,2 +1,2 @@
-# mathimatika.github.io
+# Mathimatika.github.io
 Website for mathimatika
