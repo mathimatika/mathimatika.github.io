@@ -1,2 +1,0 @@
-const nav = ``;
-const footer = ``;
