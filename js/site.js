@@ -33,6 +33,7 @@ const footer = `
     <div id="left-footer">
         <span>Mathimatika</span>
         <span>Copyright &copy; Mathimatika 2021</span>
+        <span id="contact">If you have any questions, please contact us at <a href="mailto:team.mathimatika@gmail.com">team.mathimatika@gmail.com</a>.</span>
     </div>
     <div id="right-footer">
         <span>Menu</span>
