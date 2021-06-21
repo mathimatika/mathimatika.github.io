@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 #nav-wrapper, #footer-wrapper {
     display: flex;
     align-items: center;
@@ -48,10 +52,11 @@ h1 {
 }
 
 header {
-    height: 50vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #A1D6E2;
 }
 
 #right-footer span {
@@ -100,4 +105,15 @@ header {
     overflow: visible;
     height: auto;
     padding: 15px;
+}
+
+
+@keyframes slideright {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
