@@ -62,7 +62,7 @@ nav a {
     transition: border-bottom .1s;
 }
 
-nav a:hover:not(.drop-content a) {
+nav a:hover:not(.drop-content a):not(#nav-left a) {
     border-bottom: 2px solid black;
 }
 
