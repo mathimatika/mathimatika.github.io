@@ -29,16 +29,17 @@ nav ul {
     padding-inline-start: 0;
 }
 
-nav {
-    background-color: white;
-}
-
 nav, footer {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+nav {
+    background-color: white;
+    color: black;
 }
 
 #content-wrapper {
@@ -96,17 +97,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("https://uploads-ssl.webflow.com/60e102919137b97a3fa74dcb/60e103ca7616f6637e6d67a8_%E2%80%94Pngtree%E2%80%94fractal%20energy%20blast%20background_1156838%20(1).png");
+    background-image: url("../images/bg.png");
 }
 
-#content-wrapper:before {
+/*#content-wrapper:before {
     content: "";
     background-size: 100% 100%;
     display: block;
     height: 6em;
     width: 100%;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23A1D6E2' /%3E%3C/svg%3E");
-}
+}*/
 
 #content-wrapper:before {
     transform: scale(-1, -1);
