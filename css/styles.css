@@ -238,3 +238,10 @@ header blockquote {
     display: block;
     margin: 0 auto;
 }
+#spons-head {
+    text-align: center;
+    color: #676770;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 80px;
+}
