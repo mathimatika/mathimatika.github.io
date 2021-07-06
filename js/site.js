@@ -50,7 +50,7 @@ document.querySelector("nav").innerHTML = nav;
 document.querySelector("footer").innerHTML = footer;
 
 const observer = new IntersectionObserver((entry, observer) => {
-    console.log(entry);
+    console.log(entry.isIntersecting);
     if (entry.isIntersecting) {
         entry.target.style.opacity = "1";
     }
