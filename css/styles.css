@@ -204,6 +204,7 @@ header blockquote {
 .spons {
     display: flex;
     flex-direction: row;
+    max-width: 75%;
 }
 .spons h1 {
     color: #686868;
@@ -216,4 +217,3 @@ header blockquote {
 .spons img {
     width: 200px;
 }
-
