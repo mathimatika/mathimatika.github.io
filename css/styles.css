@@ -200,3 +200,8 @@ header blockquote {
     text-decoration: none;
 }
 
+.spons {
+    display: flex;
+    flex-direction: row;
+}
+
