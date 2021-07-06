@@ -256,12 +256,12 @@ header blockquote {
     font-size: 80px;
 }
 .abt {
-    opacity: 0;
-    transition: opacity 1s ease;
     min-width: 300px;
 }
 #about-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    opacity: 0;
+    transition: opacity 1s ease;
 }
