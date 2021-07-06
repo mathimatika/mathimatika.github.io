@@ -97,6 +97,11 @@ header {
 
 header h1 {
     color: white;
+    font-size: 150px;
+}
+
+header blockquote {
+    color: #6a859c;   
 }
 
 /*#content-wrapper:before {
@@ -176,7 +181,3 @@ header h1 {
 #header-wrapper {
     widht: 80%;   
 }
-header h1 {
-    font-size: 150px;
-}
-
