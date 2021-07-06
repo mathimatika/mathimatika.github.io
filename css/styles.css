@@ -155,6 +155,7 @@ header h1 {
 .dropdown .drop-content a {
     display: block;
     margin: 5px;
+    color: white;
 }
 
 .dropdown:hover .drop-content, .dropdown:hover #tri {
