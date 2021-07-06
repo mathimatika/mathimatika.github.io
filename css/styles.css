@@ -172,3 +172,11 @@ header h1 {
     display: block;
     margin-top: 20px;
 }
+
+#header-wrapper {
+    widht: 80%;   
+}
+header h1 {
+    font-size: 150px;
+}
+
