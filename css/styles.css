@@ -206,7 +206,7 @@ header blockquote {
     flex-direction: row;
     max-width: 60%;
     margin-bottom: 15px;
-    padding: 25px;
+    padding: 20px;
     background-color: #dfdfdf;
     border-radius: 15px;
     box-shadow: 0 2px 7px -3px grey;
@@ -226,4 +226,5 @@ header blockquote {
 
 .spons img {
     width: 200px;
+    height: 200px;
 }
