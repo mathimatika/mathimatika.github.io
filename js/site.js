@@ -51,13 +51,9 @@ document.querySelector("footer").innerHTML = footer;
 
 const observer = new IntersectionObserver((entry, observer) => {
     console.log(entry.isIntersecting);
-    if (entry.isIntersecting) {
+    if (entry.intersectionRatio > 0) {
         entry.target.style.opacity = "1";
+        observer.unobserve(entry.target);
     }
-},
-{
-    root: null,
-    rootMargin: '0px',
-    threshold: 1.0
 });
 observer.observe(document.querySelector("#about-wrapper"));
