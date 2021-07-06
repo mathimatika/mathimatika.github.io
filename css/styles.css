@@ -204,7 +204,7 @@ header blockquote {
 .spons {
     display: flex;
     flex-direction: row;
-    max-width: 75%;
+    max-width: 60%;
     margin-bottom: 15px;
     padding: 25px;
     background-color: #dfdfdf;
@@ -214,7 +214,7 @@ header blockquote {
 }
 .spons:hover {
     box-shadow: 0 4px 7px -3px grey;
-    transform: translateY(-4);
+    transform: translateY(-4px);
 }
 .spons h1 {
     color: #686868;
