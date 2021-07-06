@@ -204,7 +204,7 @@ header blockquote {
 .spons {
     display: flex;
     flex-direction: row;
-    max-width: 60%;
+    width: 100%;
     margin-bottom: 15px;
     padding: 20px;
     background-color: #dfdfdf;
@@ -231,4 +231,10 @@ header blockquote {
 .spons img {
     width: 180px;
     height: 180px;
+}
+
+#sponsors {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
 }
