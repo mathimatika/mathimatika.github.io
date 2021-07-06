@@ -58,6 +58,7 @@ const observer = new IntersectionObserver((entries, observer) => {
     });
 },
 {
+    root: null,
     rootMargin: '0px',
     threshold: 1.0
 });
