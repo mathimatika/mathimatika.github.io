@@ -258,6 +258,7 @@ header blockquote {
 .abt {
     min-width: 300px;
     width: 33.33333333333%;
+    padding: 15px;
 }
 #about-wrapper {
     display: flex;
@@ -279,5 +280,13 @@ header blockquote {
 .abt h1 {
     text-align: center;
     font-size: 25px;
+    color: black;
+}
+.abt a {
+    text-decoration: none;
+    color: black;
+}
+.abt a:hover {
+    text-decoration: underline;
     color: black;
 }
