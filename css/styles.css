@@ -265,3 +265,11 @@ header blockquote {
     opacity: 0;
     transition: opacity 1s ease;
 }
+.abt img {
+    display: block;
+    margin: 0 auto;
+}
+.abt h1 {
+    text=align: center;
+    font-size: 25px;
+}
