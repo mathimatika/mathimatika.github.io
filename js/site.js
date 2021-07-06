@@ -2,7 +2,7 @@
 const nav = `
 <div id="nav-wrapper">
     <div id="nav-left">
-        <img src="images/mathimatika.png" alt="Logo" loading="lazy" width="53">
+        <a href="/"><img src="images/mathimatika.png" alt="Logo" loading="lazy" width="53"></a>
     </div>
     <div id="nav-right">
         <ul>
