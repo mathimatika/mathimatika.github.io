@@ -51,6 +51,7 @@ document.querySelector("footer").innerHTML = footer;
 
 const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
+        console.log(entry);
         if (entry.isIntersecting) {
             entry.target.style.opacity = "1";
         }
