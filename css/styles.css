@@ -277,4 +277,6 @@ header blockquote {
 .abt h1 {
     text=align: center;
     font-size: 25px;
+    margin: 20px auto;
+    padding: 20px;
 }
