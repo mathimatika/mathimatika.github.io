@@ -196,3 +196,7 @@ header blockquote {
     margin-bottom: 10px;
 }
 
+.spons h1, .spons blockquote {
+    text-decoration: none;
+}
+
