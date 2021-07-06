@@ -273,10 +273,10 @@ header blockquote {
     border-radius: 36%;
     background-color: #2e9dff;
     box-shadow: 0 0 0 1px #2e9dff;
+    padding: 20px;
 }
 .abt h1 {
-    text=align: center;
+    text-align: center;
     font-size: 25px;
-    margin: 20px auto;
-    padding: 20px;
+    color: black;
 }
