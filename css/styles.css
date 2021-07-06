@@ -183,3 +183,16 @@ header blockquote {
     display: block;
     margin: 0 auto;
 }
+
+
+.spons blockquote {
+    border-left: 4px solid #6a859c;
+    font-family: Montserrat, sans-serif;
+    color: #6a859c;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
