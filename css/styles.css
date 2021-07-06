@@ -150,6 +150,7 @@ header blockquote {
     overflow: hidden;
     background-color: #088286;
     position: absolute;
+    z-index: 3;
 }
 
 #tri {
