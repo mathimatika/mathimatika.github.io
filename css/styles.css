@@ -30,7 +30,7 @@ nav ul {
 }
 
 nav {
-    background-color: #2b448b;
+    background-color: white;
 }
 
 nav, footer {
@@ -92,11 +92,11 @@ h1 {
 }
 
 header {
-    height: 40vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #A1D6E2;
+    background-image: url("https://uploads-ssl.webflow.com/60e102919137b97a3fa74dcb/60e103ca7616f6637e6d67a8_%E2%80%94Pngtree%E2%80%94fractal%20energy%20blast%20background_1156838%20(1).png");
 }
 
 #content-wrapper:before {
