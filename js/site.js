@@ -1,7 +1,9 @@
 // Inserts a bunch of HTML stuff
 const nav = `
 <div id="nav-wrapper">
-    <div id="nav-left">IMAGE</div>
+    <div id="nav-left">
+        <img src="images/mathimatika.png" alt="Logo" loading="lazy" width="53">
+    </div>
     <div id="nav-right">
         <ul>
             <li>
