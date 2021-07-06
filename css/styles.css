@@ -87,7 +87,7 @@ footer a:not(#contact a) {
 }
 
 header {
-    height: 100vh;
+    height: 110vh;
     display: flex;
     position: relative;
 }
@@ -190,6 +190,7 @@ header blockquote {
     align-self: flex-end;
     display: block;
     margin: 0 auto;
+    margin-bottom: 10vh;
 }
 
 
