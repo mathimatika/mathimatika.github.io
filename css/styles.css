@@ -261,6 +261,7 @@ header blockquote {
     padding: 15px;
     color: #6a859c;
     text-align: center;
+    font-size: 16px;
 }
 #about-wrapper {
     display: flex;
