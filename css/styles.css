@@ -259,3 +259,8 @@ header blockquote {
     opacity: 0;
     transition: opacity 1s ease;
 }
+#about-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
