@@ -60,4 +60,4 @@ const observer = new IntersectionObserver((entries, observer) => {
     rootMargin: '0px',
     threshold: 1.0
 });
-observer.observe(document.querySelector(".abt"));
+observer.observe(document.querySelector("#about-wrapper"));
