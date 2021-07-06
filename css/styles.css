@@ -205,6 +205,16 @@ header blockquote {
     display: flex;
     flex-direction: row;
     max-width: 75%;
+    margin-bottom: 15px;
+    padding: 25px;
+    background-color: #dfdfdf;
+    border-radius: 15px;
+    box-shadow: 0 2px 7px -3px grey;
+    transition: box-shadow .2s ease, transform .2s ease;
+}
+.spons:hover {
+    box-shadow: 0 4px 7px -3px grey;
+    transform: translateY(-4);
 }
 .spons h1 {
     color: #686868;
