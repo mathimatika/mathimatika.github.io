@@ -178,6 +178,8 @@ header blockquote {
 }
 
 #header-wrapper {
-    widht: 80%;  
+    width: 80%;  
     align-self: flex-end;
+    display: block;
+    margin: 0 auto;
 }
