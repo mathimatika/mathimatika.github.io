@@ -196,8 +196,9 @@ header blockquote {
     margin-bottom: 10px;
 }
 
-.spons h1, .spons blockquote {
+#sponsors a {
     text-decoration: none;
+    color: black;
 }
 
 .spons {
