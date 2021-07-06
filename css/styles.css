@@ -238,7 +238,7 @@ header blockquote {
     display: block;
     margin: 0 auto;
 }
-#spons-head {
+#spons-head, #abt-title {
     text-align: center;
     color: #676770;
     font-weight: 600;
