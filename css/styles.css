@@ -258,6 +258,7 @@ header blockquote {
 .abt {
     opacity: 0;
     transition: opacity 1s ease;
+    min-width: 300px;
 }
 #about-wrapper {
     display: flex;
