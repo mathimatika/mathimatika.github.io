@@ -48,3 +48,14 @@ const footer = `
 
 document.querySelector("nav").innerHTML = nav;
 document.querySelector("footer").innerHTML = footer;
+
+const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        console.log(entry);
+    });
+},
+{
+    rootMargin: '0px',
+    threshold: 1.0
+});
+observer.observe(document.querySelector("#abt-title"));
