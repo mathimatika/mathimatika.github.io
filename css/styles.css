@@ -257,6 +257,7 @@ header blockquote {
 }
 .abt {
     min-width: 300px;
+    width: auto;
 }
 #about-wrapper {
     display: flex;
