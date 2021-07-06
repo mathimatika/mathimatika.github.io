@@ -89,8 +89,6 @@ footer a:not(#contact a) {
 header {
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
     background-image: url("../images/bg.png");
 }
 
@@ -180,5 +178,6 @@ header blockquote {
 }
 
 #header-wrapper {
-    widht: 80%;   
+    widht: 80%;  
+    align-self: flex-end;
 }
