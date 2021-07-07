@@ -69,11 +69,11 @@
 .wrap {
     flex-basis: 100%;
     padding: 10px;
+    min-width: 300px;
     margin-bottom: 15px;
 }
     
 .abt {
-    min-width: 300px;
     color: #6a859c;
     text-align: center;
     font-size: 16px;
