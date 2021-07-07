@@ -80,6 +80,7 @@
     background-color: white;
     border-radius: 4px;
     width: 100%;
+    padding: 15px;
 }
 #about-wrapper {
     display: flex;
@@ -88,7 +89,6 @@
     opacity: 0;
     transition: opacity 1.5s ease;
     align-items: top;
-    justify-content: space-between;
 }
 .abt img {
     display: block;
