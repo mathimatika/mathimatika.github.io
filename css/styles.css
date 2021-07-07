@@ -86,30 +86,6 @@ footer a:not(#contact a) {
     font-size: 1.3em;
 }
 
-header {
-    height: 110vh;
-    display: flex;
-    position: relative;
-}
-
-header h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 150px;
-    font-weight: bold;
-    line-height: 150px;
-    padding: 0;
-    margin: 0;
-}
-
-header blockquote {
-    color: #6a859c;
-    border-left: 5px solid #e2e2e2;
-    padding: 20px;
-    font-size: 24px;
-    line-height: 10px;
-}
-
 #right-footer span {
     font-weight: bold;
     font-size: 1.2em;
@@ -164,12 +140,4 @@ header blockquote {
 #contact {
     display: block;
     margin-top: 20px;
-}
-
-#header-wrapper {
-    width: 80%;  
-    align-self: flex-end;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 10vh;
 }
