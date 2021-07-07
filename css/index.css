@@ -120,6 +120,7 @@
 
 .wave {
     width: 100%;
+    transform: translateY(5px);
 }
 .skew {
     position: absolute;
@@ -131,9 +132,5 @@
 
 body {
     background-color: #edeff2;
-}
-
-#wave1 {
-    transform: translateY(5px);
 }
 
