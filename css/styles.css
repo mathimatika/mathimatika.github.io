@@ -224,7 +224,7 @@ header blockquote {
     padding: 0;
     line-height: 45px;
     margin-top: 10px;
-    width: 100%;
+    flex-grow: 0;
 }
 
 .spons img {
