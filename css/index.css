@@ -47,6 +47,7 @@
     max-height: 180px;
     width: auto;
     height: auto;
+    margin: auto 0;
 }
 
 #sponsors, #about, #outer-uwrap {
