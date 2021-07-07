@@ -172,3 +172,8 @@ header blockquote {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.uevent {
+    width: 50%;
+    min-width: 500px;
+}
