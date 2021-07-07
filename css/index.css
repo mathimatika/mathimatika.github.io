@@ -1,0 +1,108 @@
+/* Styles specific to index.html */
+.spons blockquote {
+    border-left: 4px solid #6a859c;
+    font-family: Montserrat, sans-serif;
+    color: #6a859c;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+#sponsors a {
+    text-decoration: none;
+    color: black;
+}
+
+.spons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: #dfdfdf;
+    border-radius: 15px;
+    box-shadow: 0 2px 7px -3px grey;
+    transition: box-shadow .2s ease, transform .2s ease;
+}
+.spons:hover {
+    box-shadow: 0 4px 7px -3px grey;
+    transform: translateY(-4px);
+}
+.spons h1 {
+    color: #686868;
+    font-size: 40px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    line-height: 45px;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.spons img {
+    max-width: 180px;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+}
+
+#sponsors, #about {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+#about {
+    width: 70%;
+}
+#spons-head, #abt-title {
+    text-align: center;
+    color: #676770;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 80px;
+}
+.abt {
+    min-width: 300px;
+    padding: 15px;
+    color: #6a859c;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    width: 30%;
+}
+#about-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    align-items: top;
+    justify-content: space-between;
+}
+.abt img {
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    border: 10px solid #fff;
+    border-radius: 36%;
+    background-color: #2e9dff;
+    box-shadow: 0 0 0 1px #2e9dff;
+    padding: 20px;
+}
+.abt h1 {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+.abt a {
+    text-decoration: none;
+    color: black;
+}
+.abt a:hover {
+    text-decoration: underline;
+    color: black;
+}
