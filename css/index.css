@@ -70,7 +70,7 @@
     color: #6a859c;
     text-align: center;
     font-size: 16px;
-    border: 1px solid lightgray;
+    background-color: white;
     border-radius: 4px;
     width: 30%;
 }
