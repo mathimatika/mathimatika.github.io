@@ -49,7 +49,7 @@
     height: auto;
 }
 
-#sponsors, #about {
+#sponsors, #about, #outer-uwrap {
     width: 60%;
     display: block;
     margin: 0 auto;
@@ -133,3 +133,8 @@
 body {
     background-color: #edeff2;
 }
+
+#wave1 {
+    tranform: translateY(4px);
+}
+
