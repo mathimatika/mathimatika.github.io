@@ -41,7 +41,7 @@ const footer = `
         <span>Menu</span>
         <a href="/">Home</a>
         <a href="/about">About</a>
-        <a href="/contest">Contest</a>
+        <a href="/contests">Contests</a>
     </div>
 </div>
 `;
