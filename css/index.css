@@ -177,6 +177,7 @@ header blockquote {
 .uevent {
     width: 45%;
     min-width: 400px;
+    text-align: center;
 }
 
 .uevent img {
