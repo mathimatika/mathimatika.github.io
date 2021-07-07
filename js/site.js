@@ -13,7 +13,7 @@ const nav = `
                 <a href="/about">About</a>
             </li>
             <li>
-                <a href="/contest">Contest</a>
+                <a href="/contests">Contests</a>
             </li>
             <li>
                 <div id="resources" class="dropdown">
@@ -48,11 +48,3 @@ const footer = `
 
 document.querySelector("nav").innerHTML = nav;
 document.querySelector("footer").innerHTML = footer;
-
-const observer = new IntersectionObserver((entry, observer) => {
-    if (entry[0].intersectionRatio > 0) {
-        entry[0].target.style.opacity = "1";
-        observer.unobserve(entry[0].target);
-    }
-});
-observer.observe(document.querySelector("#about-wrapper"));
