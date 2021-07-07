@@ -183,7 +183,7 @@ header blockquote {
 .uevent img {
     width: 100%;
 }
-.hbutton {
+.hbutton, .ubtn {
     display: inline-block;
     margin-right: 10px;
     margin-left: 10px;
@@ -196,8 +196,19 @@ header blockquote {
     line-height: 21px;
     letter-spacing: 2px;
 }
-
+    
 .hbutton:hover {
     color: #69b9ff;
     border-color: #69b9ff;
+}
+
+.ubtn {
+    background-color: #69b9ff;
+    border-color: #69b9ff;
+    transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+.ubtn:hover {
+    color: #69b9ff;
+    border-color: #69b9ff;
+    background-color: transparent;
 }
