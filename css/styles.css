@@ -257,7 +257,6 @@ header blockquote {
 }
 .abt {
     min-width: 300px;
-    width: 25%;
     padding: 15px;
     color: #6a859c;
     text-align: center;
@@ -273,7 +272,6 @@ header blockquote {
     opacity: 0;
     transition: opacity 1s ease;
     align-items: center;
-    justify-content: space-between;
 }
 .abt img {
     display: block;
