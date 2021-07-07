@@ -57,7 +57,7 @@
 #about {
     width: 70%;
 }
-#spons-head, #abt-title {
+#spons-head, #abt-title, #uhead {
     text-align: center;
     color: #676770;
     font-weight: 600;
@@ -105,4 +105,8 @@
 .abt a:hover {
     text-decoration: underline;
     color: black;
+}
+
+#upcoming {
+    background-color: black;
 }
