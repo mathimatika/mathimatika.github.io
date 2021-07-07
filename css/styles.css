@@ -257,12 +257,11 @@ header blockquote {
 }
 .abt {
     min-width: 300px;
-    width: 33.33%;
+    width: 30%;
     padding: 15px;
     color: #6a859c;
     text-align: center;
     font-size: 16px;
-    margin: 10px;
     border: 1px solid lightgray;
     border-radius: 4px;
 }
@@ -272,6 +271,8 @@ header blockquote {
     flex-wrap: wrap;
     opacity: 0;
     transition: opacity 1s ease;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .abt img {
     display: block;
