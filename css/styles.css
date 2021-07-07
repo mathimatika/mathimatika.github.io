@@ -255,7 +255,6 @@ header blockquote {
     border: 1px solid lightgray;
     border-radius: 4px;
     width: 30%;
-    vertical-align: top;
 }
 #about-wrapper {
     display: flex;
@@ -263,7 +262,7 @@ header blockquote {
     flex-wrap: wrap;
     opacity: 0;
     transition: opacity 1.5s ease;
-    align-items: center;
+    align-items: top;
     justify-content: space-between;
 }
 .abt img {
