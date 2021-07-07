@@ -263,14 +263,15 @@ header blockquote {
     font-size: 16px;
     border: 1px solid lightgray;
     border-radius: 4px;
-    margin: 10px;
+    width: 26.67%; 
+    margin-left: 5%;
 }
 #about-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     opacity: 0;
-    transition: opacity 1s ease;
+    transition: opacity 1.5s ease;
     align-items: center;
 }
 .abt img {
