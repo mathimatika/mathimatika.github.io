@@ -153,6 +153,12 @@ header {
     height: 110vh;
     display: flex;
     position: relative;
+    background-position: 0% 50%;
+    background-size: cover;
+    background-attatchment: scroll;
+    background-clip: border-box;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
 }
 
 header h1 {
