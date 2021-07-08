@@ -72,10 +72,8 @@
     margin-bottom: 15px;
     flex-basis: 0;
     flex-grow: 1;
-    transform: translateY(50px);
     opacity: 0;
-    transition: opacity 1.5s ease, translateY 1.5s ease 2s;
-    transition-style: preserve-3d;
+    transition: opacity 1.5s ease;
 }
     
 .abt {
