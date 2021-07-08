@@ -84,7 +84,7 @@
 }
 #about-wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     opacity: 0;
     transition: opacity 1.5s ease;
