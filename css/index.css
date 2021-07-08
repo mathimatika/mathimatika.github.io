@@ -180,9 +180,6 @@ header blockquote {
     flex-wrap: wrap;
     justify-content: center;
 }
-#outer-wrap {
-    width: 70%;
-}
 
 .uevent {
     width: 50%;
