@@ -82,13 +82,20 @@
     border-radius: 4px;
     width: 100%;
     padding: 15px;
+    opacity: 0;
+    transition: opacity 1.5s ease, translateY 1.5s ease;
+}
+
+.abt:last-of-type {
+    transition-delay: 0.2s;
+}
+.abt:nth-of-type(2) {
+    transition-delay: 0.1s;
 }
 #about-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    opacity: 0;
-    transition: opacity 1.5s ease;
     align-items: top;
 }
 .abt img {
