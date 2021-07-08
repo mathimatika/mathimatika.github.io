@@ -67,11 +67,11 @@
 }
 
 .wrap {
-    flex-basis: 100%;
     padding: 10px;
     min-width: 300px;
     margin-bottom: 15px;
     flex-basis: 0;
+    flex-grow: 1;
 }
     
 .abt {
@@ -85,7 +85,7 @@
 }
 #about-wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     opacity: 0;
     transition: opacity 1.5s ease;
