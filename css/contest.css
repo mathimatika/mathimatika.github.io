@@ -4,6 +4,11 @@
     margin: 0 auto;
 }
 
+#rule-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 #math-img {
     background-image: url(/images/math.jpg);
     background-position: 50% 50%;
