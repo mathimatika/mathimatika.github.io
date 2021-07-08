@@ -6,7 +6,7 @@
 
 #math-img {
     background-image: url(/images/math.jpg);
-    background-size: 50% 50%;
+    background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
