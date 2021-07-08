@@ -180,12 +180,16 @@ header blockquote {
     flex-wrap: wrap;
     justify-content: center;
 }
+#outer-wrap {
+    width: 70%;
+}
 
 .uevent {
     width: 50%;
     min-width: 400px;
     text-align: center;
     font-size: 17px;
+    padding: 20px;
 }
 
 .uevent img {
