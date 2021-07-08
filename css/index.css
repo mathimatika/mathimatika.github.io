@@ -72,6 +72,9 @@
     margin-bottom: 15px;
     flex-basis: 0;
     flex-grow: 1;
+    translateY: 15px;
+    opacity: 0;
+    transition: opacity 1.5s ease, translateY 1.5s ease;
 }
     
 .abt {
@@ -82,15 +85,12 @@
     border-radius: 4px;
     width: 100%;
     padding: 15px;
-    translateY: 15px;
-    opacity: 0;
-    transition: opacity 1.5s ease, translateY 1.5s ease;
 }
 
-.abt#transition2 {
+#transition2 {
     transition-delay: 0.2s;
 }
-.abt#transition1 {
+#transition1 {
     transition-delay: 0.1s;
 }
 #about-wrapper {
