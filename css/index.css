@@ -87,10 +87,10 @@
     transition: opacity 1.5s ease, translateY 1.5s ease;
 }
 
-.abt:last-of-type {
+.abt#transition2 {
     transition-delay: 0.2s;
 }
-.abt:nth-of-type(2) {
+.abt#transition1 {
     transition-delay: 0.1s;
 }
 #about-wrapper {
