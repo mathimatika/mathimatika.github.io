@@ -37,3 +37,7 @@
     letter-spacing: 5px;
     font-weight: 600;
 }
+
+li {
+    margin-bottom: 10px;
+}
