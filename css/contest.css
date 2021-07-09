@@ -13,10 +13,10 @@
     flex-shrink: 1;
     flex-grow: 1;
     flex-basis: 0;
+    margin-right: 30px;
 }
 
 #math-img {
-    background-image: url(/images/math.jpg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
