@@ -1,0 +1,22 @@
+/* Styles for some specific pages */
+header {
+    background-color: #192024;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+header h1 {
+    font-size: 110px;
+    font-weight: bold;
+}
+
+header span {
+    font-size: 24px;
+    color: #8e8e9c;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
