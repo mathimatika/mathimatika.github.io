@@ -35,3 +35,11 @@ header span {
 body  {
     background-color: #edeff2;
 }
+
+
+a, a:visited, a:hover, a:active {
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+}
