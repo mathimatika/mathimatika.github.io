@@ -9,6 +9,12 @@
     transition: opacity 1.5s ease, transform 1.5s ease;
     transform: translateY(40px);
 }
+
+#about, #outer-uwrap {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
     
 .abt {
     color: #6a859c;
