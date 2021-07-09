@@ -15,6 +15,14 @@
     display: block;
     margin: 0 auto;
 }
+
+#abt-title, #uhead {
+    text-align: center;
+    color: #676770;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 80px;
+}
     
 .abt {
     color: #6a859c;
