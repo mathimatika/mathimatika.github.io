@@ -1,11 +1,18 @@
 /* Styles for some specific pages */
 header {
     background-color: #192024;
+    padding-top: 20px;
+    padding-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
+}
+
+#head-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
 }
 
 header h1 {
