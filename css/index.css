@@ -10,6 +10,10 @@
     transform: translateY(40px);
 }
 
+#about {
+    width: 70%;
+}
+
 #about, #outer-uwrap {
     width: 60%;
     display: block;
