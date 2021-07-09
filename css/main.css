@@ -16,14 +16,6 @@ header {
     flex-direction: column;
 }
 
-  
-#main {
-    display: block;
-    width: 70%;
-    margin: 0 auto;
-}
-
-
 header h1 {
     font-size: 110px;
     font-weight: bold;
