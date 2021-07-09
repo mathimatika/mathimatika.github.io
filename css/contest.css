@@ -16,6 +16,9 @@
     margin-right: 30px;
 }
 
+#contest-rules h1 {
+    text-align: center;
+}
 #math-img {
     background-position: 50% 50%;
     background-size: cover;
