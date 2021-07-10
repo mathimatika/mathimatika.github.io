@@ -61,4 +61,16 @@
     font-weight: 600;
     letter-spacing: 5px;
     font-size: 80px;
+    margin-bottom: 16px;
+}
+
+
+#subhead {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 50px;
+    color: #6a859c;
+    text-align: center;
+    margin-top: 0;
+    font-weight: normal;
 }
