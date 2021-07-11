@@ -3,6 +3,11 @@
     margin-bottom: 20px;
     flex-direction: row;
 }
+#main {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
 
 #contest-rules {
     flex-shrink: 1;
