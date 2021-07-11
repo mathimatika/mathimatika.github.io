@@ -111,6 +111,7 @@ header {
     background-clip: border-box;
     background-image: url(../images/bg.png);
     background-repeat: no-repeat;
+    max-height: 850px;
 }
 
 header h1 {
