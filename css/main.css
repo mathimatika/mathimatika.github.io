@@ -8,12 +8,6 @@ header {
     justify-content: center;
 }
 
-#main {
-    display: block;
-    width: 70%;
-    margin: 0 auto;
-}
-
 .header {
     text-align: center;
     color: #676770;
