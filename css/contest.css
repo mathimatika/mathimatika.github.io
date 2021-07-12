@@ -9,6 +9,12 @@
     margin: 0 auto;
 }
 
+#signup-wrapper {
+    margin-bottom: 2em;
+    color: #6a859c;
+    font-size: 18px;
+}
+
 #contest-rules {
     flex-shrink: 1;
     flex-grow: 1;
