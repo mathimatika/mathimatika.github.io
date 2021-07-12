@@ -10,6 +10,17 @@
     transform: translateY(40px);
 }
 
+#banner {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #000040;
+}
+
 #about {
     width: 70%;
 }
