@@ -15,7 +15,7 @@ const nav = `
             <li>
                 <a href="/contests">Contests</a>
             </li>
-            <li>
+            <!--<li>
                 <a href="/sponsors">Sponsors</a>
             </li>
             <li>
@@ -27,7 +27,7 @@ const nav = `
                         <a href="/math-club">Math club</a>
                     </div>
                 </div>
-            </li>
+            </li>-->
         </ul>
     </div>
 </div>
