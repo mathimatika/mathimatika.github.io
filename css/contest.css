@@ -11,6 +11,7 @@
 
 ol {
     list-style-type: disc;
+    margin-bottom: 20px;
 }
 
 #contest-rules {
