@@ -9,6 +9,10 @@
     margin: 0 auto;
 }
 
+ol {
+    list-style-type: disc;
+}
+
 #contest-rules {
     flex-shrink: 1;
     flex-grow: 1;
