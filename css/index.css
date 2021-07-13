@@ -206,3 +206,11 @@ header blockquote {
     border-color: #69b9ff;
     background-color: transparent;
 }
+
+
+/* SPONSOR STUFF */
+#sponsor-wrap {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
