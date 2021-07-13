@@ -214,3 +214,13 @@ header blockquote {
     width: 70%;
     margin: 0 auto;
 }
+#spons-iwrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#sponsor-wrap img {
+    height: 75px;
+    width: auto;
+    margin: 20px;
+}
