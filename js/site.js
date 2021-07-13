@@ -15,10 +15,10 @@ const nav = `
             <li>
                 <a href="/contests">Contests</a>
             </li>
-            <!--<li>
+            <li>
                 <a href="/sponsors">Sponsors</a>
             </li>
-            <li>
+            <!--<li>
                 <div id="resources" class="dropdown">
                     Other resources
                     <div id="tri"></div>
