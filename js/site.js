@@ -10,7 +10,7 @@ const nav = `
                 <a href="/">Home</a>
             </li>
             <li>
-                <a href="/about">About</a>
+                <a href="/about">Our Team</a>
             </li>
             <li>
                 <a href="/contests">Contests</a>
