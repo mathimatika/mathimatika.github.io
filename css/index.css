@@ -33,7 +33,7 @@
     margin: 0 auto;
 }
 
-#abt-title, #uhead {
+.title {
     text-align: center;
     color: #676770;
     font-weight: 600;
