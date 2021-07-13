@@ -217,6 +217,7 @@ header blockquote {
 #spons-iwrap {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 #sponsor-wrap img {
