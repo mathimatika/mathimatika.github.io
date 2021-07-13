@@ -174,3 +174,9 @@ footer a:not(#contact a) {
     border-color: #69b9ff;
     background-color: transparent;
 }
+
+#main-content {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
