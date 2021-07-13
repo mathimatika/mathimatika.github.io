@@ -214,6 +214,7 @@ header blockquote {
     display: block;
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 #spons-iwrap {
     display: flex;
