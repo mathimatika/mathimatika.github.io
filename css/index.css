@@ -227,4 +227,11 @@ header blockquote {
     height: 75px;
     width: auto;
     margin: 20px;
+    opacity: 0.75;
+    filter: grayscale(100%);
+    transition: opacity 300ms ease;
+}
+
+#sponsor-wrap img:hover {
+    opacity: 1;
 }
