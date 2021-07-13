@@ -6,3 +6,12 @@
 #nav-right li:nth-of-type(3) {
     font-weight: bold;
 }
+
+
+.ubtn {
+    color: white;
+}
+.hbutton {
+    border-color: #69b9ff;
+    color: #69b9ff;
+}
