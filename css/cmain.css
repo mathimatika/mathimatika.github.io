@@ -12,7 +12,11 @@
 .ubtn {
     color: white;
 }
-.hbutton {
+#main .hbutton {
     border-color: #69b9ff;
     color: #69b9ff;
+}
+#main .hbutton:hover {
+    background-color: #69b9ff;
+    color: white;
 }
