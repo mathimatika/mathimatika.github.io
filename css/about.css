@@ -1,7 +1,4 @@
 /* Styles for about.html */
-
-    align-items: center;
-/* Styles for about.html */
 .section-heading {
   display: -webkit-box;
   display: -webkit-flex;
@@ -118,4 +115,18 @@
 
 .about-description {
   font-size: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 20px;
+}
+
+.card-inner {
+  padding: 40px;
+  background-color: white;
+  border-radius: 32px;
+  transition: box-shadow 500ms ease;
+  text-align: center;
 }
