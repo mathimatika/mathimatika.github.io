@@ -44,6 +44,11 @@
     opacity: 0;
     transition-delay: 500ms;
     transition: opacity .1s ease;
+    color: #6a859c;
+}
+
+.role {
+    color: #838383;
 }
 
 .card-inner:hover {
