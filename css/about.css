@@ -42,8 +42,7 @@
 
 .description {
     opacity: 0;
-    transition-delay: 500ms;
-    transition: opacity .1s ease;
+    transition: opacity .1s ease 500ms;
     color: #6a859c;
 }
 
@@ -60,5 +59,5 @@
     transform: translateY(0px);
 }
 .card-inner:hover .description {
-    opacity: 0;
+    opacity: 1;
 }
