@@ -21,4 +21,15 @@
     text-align: center;
     height: 400px;
     width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.username {
+    margin: 0;
+    color: #555;
+    font-size: 43px;
+    font-weight: bold;
 }
