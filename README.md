@@ -5,3 +5,6 @@ Website for mathimatika
 
 
 GitHub "mirror" of https://mathimatika.webflow.io/
+
+
+## Website is officially done for now!!
