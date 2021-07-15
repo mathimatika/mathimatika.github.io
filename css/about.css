@@ -7,3 +7,14 @@
     align-items: center;
     justify-content: center;
 }
+
+.card {
+    padding: 20px;
+}
+
+.card-inner {
+    padding: 40px;
+    background-color: white;
+    border-radius: 32px;
+    transition: box-shadow 500ms ease;
+}
