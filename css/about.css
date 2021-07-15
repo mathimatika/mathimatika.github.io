@@ -44,6 +44,7 @@
     opacity: 0;
     transition: opacity .1s ease 500ms;
     color: #6a859c;
+    margin: 0;
 }
 
 .role {
