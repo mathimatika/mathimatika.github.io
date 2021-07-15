@@ -45,3 +45,15 @@
     transition-delay: 500ms;
     transition: opacity .1s ease;
 }
+
+.card-inner:hover {
+    box-shadow: 7px 7px 13px -7px #333;
+    background-color: #E0E0E0;
+}
+
+.card-inner:hover .ur-wrapper {
+    transform: translateY(0px);
+}
+.card-inner:hover .description {
+    opacity: 0;
+}
