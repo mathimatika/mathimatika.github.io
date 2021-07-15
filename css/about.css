@@ -62,5 +62,5 @@
 }
 .card-inner:hover .description {
     opacity: 1;
-    transition: opacity 200ms ease 400ms;
+    transition: opacity 200ms ease 200ms;
 }
