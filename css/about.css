@@ -18,4 +18,5 @@
     background-color: white;
     border-radius: 32px;
     transition: box-shadow 500ms ease;
+    text-align: center;
 }
