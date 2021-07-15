@@ -18,6 +18,7 @@
 #main .hbutton {
     border-color: #00008b;
     color: #00008b;
+    transition: color .3s ease, background-color .3s ease;
 }
 #main .hbutton:hover {
     background-color: #00008b;
