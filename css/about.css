@@ -1,1 +1,9 @@
 /* Styles for about.html */
+
+.card-wrapper {
+    display: flex;
+    margin-right: 40px;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+}
