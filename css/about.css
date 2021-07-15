@@ -19,4 +19,6 @@
     border-radius: 32px;
     transition: box-shadow 500ms ease;
     text-align: center;
+    height: 400px;
+    width: 400px;
 }
