@@ -10,7 +10,7 @@ const nav = `
                 <a href="/">Home</a>
             </li>
             <li>
-                <a href="https://mathimatika.webflow.io/about">Our Team</a>
+                <a href="/about">Our Team</a>
             </li>
             <li>
                 <a href="/contests">Contests</a>
