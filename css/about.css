@@ -36,17 +36,16 @@
 }
 
 .ur-wrapper {
-    transform: translateY(150%);
+    transform: translateY(80px);
     transition: transform 500ms ease;
 }
 
 .description {
     opacity: 0;
-    transition: opacity 600ms ease;
+    transition: opacity 200ms ease 400ms ease;
     color: #6a859c;
     margin: 0;
     font-size: 16px;
-    visibility: hidden;
 }
 
 .role {
@@ -62,6 +61,6 @@
     transform: translateY(0px);
 }
 .card-inner:hover .description {
-    visibility: visible;
     opacity: 1;
+    transition: none;
 }
