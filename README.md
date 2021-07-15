@@ -1,10 +1,5 @@
 # mathimatika.github.io
-Website for mathimatika
+(Backup) website for mathimatika
 
 [mathimatika.github.io](https://mathimatika.github.io)
-
-
-GitHub "mirror" of https://mathimatika.webflow.io/
-
-
-## Website is officially done for now!!
+# Website is officially done for now!!
