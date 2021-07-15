@@ -42,7 +42,7 @@
 
 .description {
     opacity: 0;
-    transition: opacity 200ms ease 400ms;
+    transition: none;
     color: #6a859c;
     margin: 0;
     font-size: 16px;
@@ -62,5 +62,5 @@
 }
 .card-inner:hover .description {
     opacity: 1;
-    transition: none;
+    transition: opacity 200ms ease 400ms;
 }
