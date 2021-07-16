@@ -1,66 +1,75 @@
 /* Styles for about.html */
 
 .card-wrapper {
-    display: flex;
-    margin-right: 10%;
-    margin-left: 10%;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  margin-right: 10%;
+  margin-left: 10%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card {
-    padding: 20px;
+  padding: 20px;
 }
 
 .card-inner {
-    padding: 40px;
-    background-color: white;
-    border-radius: 32px;
-    transition: box-shadow 400ms ease, background-color 400ms ease;
-    text-align: center;
-    height: 400px;
-    width: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  padding: 40px;
+  background-color: white;
+  border-radius: 32px;
+  transition: box-shadow 400ms ease, background-color 400ms ease;
+  text-align: center;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-
 
 .username {
-    margin: 0;
-    color: #555;
-    font-size: 43px;
-    font-weight: bold;
-}
-
-.ur-wrapper {
-    transform: translateY(80px);
-    transition: transform 400ms ease;
-}
-
-.description {
-    opacity: 0;
-    transition: none;
-    color: #6a859c;
-    margin: 0;
-    font-size: 16px;
+  margin: 0;
+  color: #555;
+  font-size: 43px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .role {
-    color: #838383;
+  color: #838383;
+  margin-bottom: 10px;
+}
+
+.ur-wrapper {
+  transform: translateY(00px);
+  transition: transform 400ms ease;
+  margin-top: 20px;
+}
+
+.description {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: none;
+  color: #6a859c;
+  margin: 0;
+  font-size: 16px;
 }
 
 .card-inner:hover {
-    box-shadow: 7px 7px 13px -7px #333;
-    background-color: #E0E0E0;
+  box-shadow: 7px 7px 13px -7px #333;
+  background-color: #e0e0e0;
 }
 
 .card-inner:hover .ur-wrapper {
-    transform: translateY(0px);
+  transform: translateY(-35px);
 }
 .card-inner:hover .description {
-    opacity: 1;
-    transition: opacity 200ms ease 250ms;
+  position: static;
+  opacity: 1;
+  transition: opacity 200ms ease 250ms;
+}
+
+.desc-link {
+  color: #000;
 }
