@@ -36,6 +36,7 @@
 }
 
 .role {
+  display: none; /* FIX THIS IF NECESSARY */
   color: #838383;
   margin-bottom: 10px;
 }
