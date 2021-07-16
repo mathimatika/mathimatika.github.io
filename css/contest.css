@@ -41,3 +41,9 @@ ul {
 #contest-rules li {
     margin-bottom: 25px;
 }
+
+#twrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
