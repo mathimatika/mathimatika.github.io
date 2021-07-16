@@ -43,7 +43,8 @@ ul {
 }
 
 #twrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
 }
