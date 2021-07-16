@@ -46,8 +46,6 @@
 }
 
 .description {
-    position: absolute;
-    top: 0;
     opacity: 0;
     transition: none;
     color: #6a859c;
