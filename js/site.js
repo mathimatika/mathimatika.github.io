@@ -5,13 +5,13 @@ const nav = `
         <a href="/"><img src="/images/mathimatika.png" alt="Logo" loading="lazy" width="53"></a>
     </div>
     <div id="nav-right">
-        <div id="hamburger">
+        <div id="hamburger" onclick="open()">
             <span></span>
             <span></span>
             <span></span>
         </div>
         <div id="mobile-nav">
-            <div id="close">
+            <div id="close" onclick="close()">
                 <span></span>
                 <span style="visibility: hidden;"></span>
                 <span></span>
