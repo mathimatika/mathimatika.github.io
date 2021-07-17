@@ -20,10 +20,6 @@ body {
     margin-left: auto;
 }
 
-#footer-wrapper {
-    flex-wrap: wrap;
-}
-
 nav ul {
     list-style-type: none;
     display: flex;
