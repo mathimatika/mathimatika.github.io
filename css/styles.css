@@ -232,4 +232,7 @@ footer a:not(#contact a) {
     nav ul:hover {
         border: 0;
     }
+    nav a {
+        padding: 0;
+    }
 }
