@@ -184,7 +184,7 @@ footer a:not(#contact a) {
     margin: 0 auto;
 }
 
-.hamburger {
+#hamburger {
     width: 60px;
     height: 45px;
     position: relative;
