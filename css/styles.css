@@ -19,6 +19,7 @@ body {
 
 #footer-wrapper {
     flex-wrap: wrap;
+    min-width: none;
 }
 
 nav ul {
@@ -183,6 +184,9 @@ footer a:not(#contact a) {
 
 @media only screen and (max-width: 1030px) {
     #right-footer {
+        display: none;
+    }
+    #contact {
         display: none;
     }
 }
