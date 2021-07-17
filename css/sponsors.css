@@ -108,6 +108,7 @@
     .spons blockquote {
         border-left: none;
         padding: 0;
+        font-size: 15px;
     }
     #spons-head {
         font-size: 40px;
@@ -117,5 +118,11 @@
     }
     .spons h1 {
         font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .spons h1 {
+        font-size: 25px;
     }
 }
