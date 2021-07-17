@@ -65,7 +65,10 @@ a:hover {
 /* Mobile breakpoints */
 @media only screen and (max-width: 800px) {
     .header {
-        font-size: 60px;
+        font-size: 65px;
+    }
+    #main {
+        width: 90%;
     }
     .header2 {
         font-size: 30px;
@@ -76,16 +79,26 @@ a:hover {
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    
+}
+
 @media only screen and (max-width: 420px) {
-    header h1 {
-        font-size: 60px;
+    .header {
+        font-size: 40px;
     }
     header span {
         font-size: 14px;
     }
+    header h1 {
+        font-size: 60px;
+    }
 }
 
 @media only screen and (max-width: 350px) {
+    .header {
+        font-size: 30px;
+    }
     header h1 {
         font-size: 50px;
     }
