@@ -65,7 +65,7 @@ nav a {
 }
 
 nav a:hover:not(.drop-content a):not(#nav-left a) {
-    border-bottom: 2px solid black;
+    color: #2e9dff;
 }
 
 footer a:not(#contact a) {
@@ -232,9 +232,6 @@ footer a:not(#contact a) {
     nav ul {
         flex-direction: column;
         margin-bottom: 10px;
-    }
-    nav a:hover {
-        border: 0;
     }
     nav a {
         padding: 0;
