@@ -63,3 +63,10 @@ const footer = `
 
 document.querySelector("nav").innerHTML = nav;
 document.querySelector("footer").innerHTML = footer;
+
+function close() {
+    document.querySelector("#mobile-nav").style.left = '0';
+}
+function open() {
+    document.querySelector("#mobile-nav").style.right = '0';
+}
