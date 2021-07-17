@@ -191,6 +191,7 @@ footer a:not(#contact a) {
     width: 2rem;
     height: 2rem;
     cursor: pointer;
+    display: none;
 }
 #hamburger span, #close span {
     width: 2rem;
@@ -217,5 +218,8 @@ footer a:not(#contact a) {
     }
     #contact {
         display: none;
+    }
+    #close, #hamburger {
+        display: block;
     }
 }
