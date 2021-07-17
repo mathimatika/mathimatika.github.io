@@ -201,6 +201,10 @@ footer a:not(#contact a) {
     transform-origin: 1;
     background-color: white;
 }
+#hamburger.open span:nth-child(2) {
+    opacity: 0;
+    width: 0;
+}
 
 @media only screen and (max-width: 1030px) {
     #right-footer {
