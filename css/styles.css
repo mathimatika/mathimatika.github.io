@@ -223,6 +223,6 @@ footer a:not(#contact a) {
     }
     #mobile-nav {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 }
