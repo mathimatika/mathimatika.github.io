@@ -203,7 +203,7 @@ footer a:not(#contact a) {
 #close span:nth-child(1) {
     transform: rotate(45deg);
 }
-#close span:nth-child(2) {
+#close span:nth-child(3) {
     transform: rotate(-45deg);
 }
 
