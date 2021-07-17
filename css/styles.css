@@ -206,6 +206,9 @@ footer a:not(#contact a) {
 #close span:nth-child(3) {
     transform: rotate(-45deg);
 }
+#close span {
+    transform-origin: 1px;
+}
 
 
 @media only screen and (max-width: 1030px) {
