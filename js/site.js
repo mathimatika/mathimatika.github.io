@@ -13,6 +13,7 @@ const nav = `
         <div id="mobile-nav">
             <div id="close">
                 <span></span>
+                <span style="display: none;"></span>
                 <span></span>
             </div>
             <ul>
