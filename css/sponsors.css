@@ -92,11 +92,18 @@
     .spons img {
         display: none;
     }
+    .spons h1 {
+        margin-left: 0;
+    }
+    .spons blockquote {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 @media only screen and (max-width: 400px) {
     .spons {
-        padding: 5px;
+        padding: 15px;
     }
     .spons blockquote {
         border-left: none;
