@@ -4,36 +4,42 @@ const nav = `
     <div id="nav-left">
         <a href="/"><img src="/images/mathimatika.png" alt="Logo" loading="lazy" width="53"></a>
     </div>
-    <div id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
     <div id="nav-right">
-        <ul>
-            <li>
-                <a href="/">Home</a>
-            </li>
-            <li>
-                <a href="/about">Our Team</a>
-            </li>
-            <li>
-                <a href="/contests">Contests</a>
-            </li>
-            <li>
-                <a href="/sponsors">Sponsors</a>
-            </li>
-            <!--<li>
-                <div id="resources" class="dropdown">
-                    Other resources
-                    <div id="tri"></div>
-                    <div class="drop-content">
-                        <a href="/handouts">Handouts</a>
-                        <a href="/math-club">Math club</a>
+        <div id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="mobile-nav">
+            <div id="close">
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/about">Our Team</a>
+                </li>
+                <li>
+                    <a href="/contests">Contests</a>
+                </li>
+                <li>
+                    <a href="/sponsors">Sponsors</a>
+                </li>
+                <!--<li>
+                    <div id="resources" class="dropdown">
+                        Other resources
+                        <div id="tri"></div>
+                        <div class="drop-content">
+                            <a href="/handouts">Handouts</a>
+                            <a href="/math-club">Math club</a>
+                        </div>
                     </div>
-                </div>
-            </li>-->
-        </ul>
+                </li>-->
+            </ul>
+        </div>
     </div>
 </div>
 `;
