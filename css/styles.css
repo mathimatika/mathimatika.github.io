@@ -95,6 +95,9 @@ footer a:not(#contact a) {
     font-weight: bold;
     font-size: 1.2em;
 }
+#right-footer {
+    margin-left: 50px;
+}
 
 #left-footer span:not(#contact) {
     display: block;
