@@ -227,7 +227,7 @@ footer a:not(#contact a) {
         position: absolute;
         z-index: 1;
         right: 0;
-        background-color: #000070;
+        background-color: darkcyan;
     }
     nav ul {
         flex-direction: column;
