@@ -11,15 +11,17 @@ body {
 #nav-wrapper, #footer-wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    max-width: 1000px;
-    min-width: 1000px;
     padding: 10px;
+}
+#nav-wrapper {
+    width: 65%;
+}
+#nav-right {
+    margin-left: auto;
 }
 
 #footer-wrapper {
     flex-wrap: wrap;
-    min-width: none;
 }
 
 nav ul {
