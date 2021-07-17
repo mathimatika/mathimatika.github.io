@@ -69,6 +69,7 @@ a:hover {
     }
     #main {
         width: 90%;
+        margin: 0 auto;
     }
     .header2 {
         font-size: 30px;
