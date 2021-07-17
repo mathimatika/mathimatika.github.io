@@ -49,3 +49,8 @@ ul {
     margin: 0 auto;
     margin-bottom: 50px;
 }
+@media only screen and (max-width: 800px) {
+    #math-img {
+        display: none;
+    }
+}
