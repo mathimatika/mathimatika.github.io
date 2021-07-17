@@ -184,7 +184,7 @@ footer a:not(#contact a) {
     margin: 0 auto;
 }
 
-#hamburger {
+#hamburger, #close {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -192,21 +192,14 @@ footer a:not(#contact a) {
     height: 2rem;
     cursor: pointer;
 }
-#hamburger span {
+#hamburger span, #close span {
     width: 2rem;
     height: 0.3rem;
     border-radius: 10px;
-    transition: all 0.3s linear;
     position: relative;
     background-color: black;
 }
-#hamburger.open span:nth-child(2) {
-    opacity: 0;
-    width: 0;
-}
-#hamburger.open span:nth-child(1) {
-    transform: rotate(45deg);
-}
+
 
 @media only screen and (max-width: 1030px) {
     #right-footer {
