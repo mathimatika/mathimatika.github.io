@@ -225,4 +225,11 @@ footer a:not(#contact a) {
         display: flex;
         flex-direction: column;
     }
+    nav ul {
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    nav ul:hover {
+        border: 0;
+    }
 }
