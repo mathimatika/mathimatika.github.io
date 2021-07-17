@@ -221,4 +221,8 @@ footer a:not(#contact a) {
     #close, #hamburger {
         display: flex;
     }
+    #mobile-nav {
+        display: flex;
+        flex-direction: row;
+    }
 }
