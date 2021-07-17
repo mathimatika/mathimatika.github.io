@@ -204,6 +204,9 @@ footer a:not(#contact a) {
     opacity: 0;
     width: 0;
 }
+#hamburger.open span:nth-child(1) {
+    transform: rotate(45deg);
+}
 
 @media only screen and (max-width: 1030px) {
     #right-footer {
