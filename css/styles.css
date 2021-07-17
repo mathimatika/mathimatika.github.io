@@ -198,7 +198,7 @@ footer a:not(#contact a) {
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
-    background-color: white;
+    background-color: black;
 }
 #hamburger.open span:nth-child(2) {
     opacity: 0;
