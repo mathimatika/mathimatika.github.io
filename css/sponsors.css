@@ -81,7 +81,7 @@
 /* Mobile breakpoints */
 @media only screen and (max-width: 800px) {
     #spons-head {
-        font-size: 60px;
+        font-size: 64px;
     }
     #sponsors {
         width: 90%;
