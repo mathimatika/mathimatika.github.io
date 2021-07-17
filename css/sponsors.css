@@ -95,4 +95,8 @@
     .spons {
         padding: 5px;
     }
+    .spons blockquote {
+        border-left: none;
+        padding: 0;
+    }
 }
