@@ -65,8 +65,8 @@ document.querySelector("nav").innerHTML = nav;
 document.querySelector("footer").innerHTML = footer;
 
 function close() {
-    document.querySelector("#mobile-nav").style.left = '0';
+    console.log("Close");
 }
 function open() {
-    document.querySelector("#mobile-nav").style.right = '0';
+    console.log("Open");
 }
