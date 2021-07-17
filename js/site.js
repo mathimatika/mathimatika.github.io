@@ -4,6 +4,11 @@ const nav = `
     <div id="nav-left">
         <a href="/"><img src="/images/mathimatika.png" alt="Logo" loading="lazy" width="53"></a>
     </div>
+    <div id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
     <div id="nav-right">
         <ul>
             <li>
