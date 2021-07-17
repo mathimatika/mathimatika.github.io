@@ -200,6 +200,13 @@ footer a:not(#contact a) {
     background-color: black;
 }
 
+#close span:nth-child(1) {
+    transform: rotate(45deg);
+}
+#close span:nth-child(2) {
+    transform: rotate(-45deg);
+}
+
 
 @media only screen and (max-width: 1030px) {
     #right-footer {
