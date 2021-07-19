@@ -221,6 +221,14 @@ footer a:not(#contact a) {
     #close, #hamburger {
         display: flex;
     }
+    #mobile-nav {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 1;
+        right: -50%;
+        background-color: darkcyan;
+    }
     nav ul {
         flex-direction: column;
         margin-bottom: 10px;
