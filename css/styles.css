@@ -247,5 +247,6 @@ footer a:not(#contact a) {
         color: white;
         margin: 0;
         text-transform: uppercase;
+        transition: color .2s ease;
     }
 }
