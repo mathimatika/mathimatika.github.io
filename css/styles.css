@@ -242,7 +242,7 @@ footer a:not(#contact a) {
         padding: 20px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.10);
     }
-    nav a {
+    #mobile-nav a {
         padding: 0;
         color: white;
         margin: 0;
