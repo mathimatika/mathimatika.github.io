@@ -24,19 +24,6 @@
 }
 
 
-/*#content-wrapper:before {
-    content: '';
-    display: block;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 30px 100vw 0 0;
-    border-color: transparent #edeff2 transparent transparent;
-    position: relative;
-    top: -30px;
-}
-*/
-
 /*
 #content-wrapper:before {
     content: "";
