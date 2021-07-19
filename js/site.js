@@ -5,13 +5,13 @@ const nav = `
         <a href="/"><img src="/images/mathimatika.png" alt="Logo" loading="lazy" width="53"></a>
     </div>
     <div id="nav-right">
-        <div id="hamburger" onclick="open()">
+        <div id="hamburger">
             <span></span>
             <span></span>
             <span></span>
         </div>
         <div id="mobile-nav">
-            <div id="close" onclick="close()">
+            <div id="close">
                 <span></span>
                 <span style="visibility: hidden;"></span>
                 <span></span>
@@ -63,6 +63,9 @@ const footer = `
 
 document.querySelector("nav").innerHTML = nav;
 document.querySelector("footer").innerHTML = footer;
+
+document.querySelector("#hamburger").onclick = open;
+document.querySelector("#close").onclick = close;
 
 function open() {document.querySelector("#mobile-nav").style.right = "0";}
 function close() {document.querySelector("#mobile-nav").style.right = "-75%";}
