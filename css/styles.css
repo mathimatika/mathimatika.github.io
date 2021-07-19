@@ -240,6 +240,7 @@ footer a:not(#contact a) {
     }
     nav li {
         padding: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.10);
     }
     nav a {
         padding: 0;
