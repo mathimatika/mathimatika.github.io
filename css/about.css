@@ -20,6 +20,7 @@
     transition: box-shadow 400ms ease, background-color 400ms ease;
     text-align: center;
     height: 400px;
+    width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +28,7 @@
 }
 
 .card-inner.testsolver {
-    width: 400px;
+    height: 200px;
 }
 
 .username {
@@ -48,7 +49,7 @@
     margin-top: 20px;
 }
 
-.description, .card-inner.testsolver role {
+.description, .card-inner.testsolver .role {
     opacity: 0;
     transition: none;
     margin: 0;
@@ -66,7 +67,7 @@
 .card-inner:hover .ur-wrapper {
     transform: translateY(-35px);
 }
-.card-inner:hover .description, .card-inner.testsolver:hover role {
+.card-inner:hover .description, .card-inner.testsolver:hover .role {
     opacity: 1;
     transition: opacity 200ms ease 250ms;
 }
