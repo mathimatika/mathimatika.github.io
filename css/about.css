@@ -20,11 +20,14 @@
     transition: box-shadow 400ms ease, background-color 400ms ease;
     text-align: center;
     height: 400px;
-    width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.card-inner.testsolver {
+    width: 400px;
 }
 
 .username {
@@ -45,12 +48,14 @@
     margin-top: 20px;
 }
 
-.description {
+.description, .card-inner.testsolver role {
     opacity: 0;
     transition: none;
-    color: #6a859c;
     margin: 0;
+}
+.description {
     font-size: 16px;
+    color: #6a859c;
 }
 
 .card-inner:hover {
@@ -61,8 +66,7 @@
 .card-inner:hover .ur-wrapper {
     transform: translateY(-35px);
 }
-.card-inner:hover .description {
-    position: static;
+.card-inner:hover .description, .card-inner.testsolver:hover role {
     opacity: 1;
     transition: opacity 200ms ease 250ms;
 }
@@ -76,6 +80,9 @@
     .card-inner {
         width: 280px;
         height: 500px;
+    }
+    .card-inner.testsolver {
+        height: 200px;
     }
     .username {
         font-size: 35px;
