@@ -228,7 +228,7 @@ footer a:not(#contact a) {
         z-index: 1;
         right: -75%;
         background-color: darkcyan;
-        transition: right .5s ease;
+        transition: right .5s ease-in-out;
         padding: 20px;
         max-width: 75%;
         top: 0;
