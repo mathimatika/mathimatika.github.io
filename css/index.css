@@ -73,6 +73,9 @@ header:after {
     border-radius: 4px;
     width: 100%;
     padding: 15px;
+    /*
+    height: 100%;
+    */
 }
 
 #transition2 {
