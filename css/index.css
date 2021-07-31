@@ -230,6 +230,12 @@ header blockquote {
     margin-top: 0;
 }
 
+#join {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
 
 @media only screen and (max-width: 1130px) {
     header h1 {
