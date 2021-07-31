@@ -234,6 +234,10 @@ header blockquote {
     display: block;
     text-decoration: none;
     color: white;
+    margin: 20px;
+}
+#join:hover {
+    color: #69b9ff;
 }
 
 
