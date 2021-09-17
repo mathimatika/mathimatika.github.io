@@ -123,6 +123,8 @@ footer a:not(#contact a) {
     position: relative;
     left: 40%;
     opacity: 0;
+    transition: opacity .3s ease;
+    display: none;
 }
 
 .dropdown .drop-content a {
@@ -133,6 +135,7 @@ footer a:not(#contact a) {
 
 .dropdown:hover .drop-content, .dropdown:hover #tri {
     opacity: 1;
+    display: block;
 }
 
 .dropdown:hover .drop-content {
