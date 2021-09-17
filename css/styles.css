@@ -103,6 +103,7 @@ footer a:not(#contact a) {
 .dropdown {
     cursor: pointer;
     position: relative;
+    white-space: nowrap;
 }
 
 .dropdown .drop-content {
