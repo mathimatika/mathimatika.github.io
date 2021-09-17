@@ -29,16 +29,16 @@ const nav = `
                 <li>
                     <a href="/sponsors">Sponsors</a>
                 </li>
-                <!--<li>
+                <li>
                     <div id="resources" class="dropdown">
                         Other resources
                         <div id="tri"></div>
                         <div class="drop-content">
                             <a href="/handouts">Handouts</a>
-                            <a href="/math-club">Math club</a>
+                            <!--<a href="/math-club">Math club</a>-->
                         </div>
                     </div>
-                </li>-->
+                </li>
             </ul>
         </div>
     </div>
