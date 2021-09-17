@@ -102,6 +102,7 @@ footer a:not(#contact a) {
 
 .dropdown {
     cursor: pointer;
+    position: relative;
 }
 
 .dropdown .drop-content {
@@ -111,6 +112,7 @@ footer a:not(#contact a) {
     background-color: #088286;
     position: absolute;
     z-index: 3;
+    margin-top: 24px;
 }
 
 #tri {
@@ -120,8 +122,8 @@ footer a:not(#contact a) {
     border-right: 12px solid transparent;
     border-left: 12px solid transparent;
     border-bottom: 12px solid #088286;
-    position: relative;
-    left: 40%;
+    position: absolute;
+    left: 50%;
     opacity: 0;
     transition: opacity .3s ease;
     display: none;
