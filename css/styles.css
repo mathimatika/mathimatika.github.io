@@ -61,6 +61,7 @@ nav a {
     margin-right: 10px;
     margin-left: 10px;
     white-space: nowrap;
+    font-weight: 300;
 }
 
 nav a:hover:not(.drop-content a):not(#nav-left a) {
