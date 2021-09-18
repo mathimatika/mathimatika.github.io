@@ -11,6 +11,7 @@ a {
 
 a:hover {
     color: #3474ad;
+    transition: .2s;
 }
 
 * {
