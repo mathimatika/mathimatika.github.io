@@ -5,12 +5,12 @@ body {
 }
 
 a {
-    color: #3474ad;
+    color: #67A7E0;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #3474ad;
 }
 
 * {
