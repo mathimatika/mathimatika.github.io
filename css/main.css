@@ -54,14 +54,6 @@ body  {
     background-color: #edeff2;
 }
 
-
-a, a:visited, a:hover, a:active {
-    color: black;
-}
-a:hover {
-    text-decoration: none;
-}
-
 /* Mobile breakpoints */
 @media only screen and (max-width: 800px) {
     .header {
