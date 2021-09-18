@@ -150,7 +150,7 @@ header {
     background-size: cover;
     background-attatchment: scroll;
     background-clip: border-box;
-    background-image: url(../images/bg.png);
+    background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     max-height: 860px;
 }
