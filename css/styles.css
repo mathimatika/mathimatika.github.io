@@ -4,6 +4,15 @@ body {
     font-size: 20px;
 }
 
+a {
+    color: #3474ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 * {
     box-sizing: border-box;
 }
