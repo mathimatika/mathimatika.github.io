@@ -2,7 +2,7 @@ const msg = [
     "404 can be expressed as the sum of two perfect squares",
     "404 = 2<sup>2</sup> × 101",
     "404 is a deficient number",
-    "194<sub>16</sub> = 404"
+    "you are probably lost"
 ];
 function rand(n) {
     const r = Math.floor(Math.random() * n);
