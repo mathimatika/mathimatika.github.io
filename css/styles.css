@@ -116,6 +116,7 @@ footer a:not(#contact a) {
     position: relative;
     white-space: nowrap;
     font-weight: 300;
+    margin-left: 20px;
 }
 
 .dropdown .drop-content {
