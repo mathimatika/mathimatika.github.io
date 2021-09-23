@@ -24,7 +24,7 @@
     border-radius: 15px;
     box-shadow: 0 2px 7px -3px grey;
     transition: box-shadow .2s ease, transform .2s ease;
-    max-width: 1000px;
+    max-width: 900px;
 }
 .spons:hover {
     box-shadow: 0 4px 7px -3px grey;
