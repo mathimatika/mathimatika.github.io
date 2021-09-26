@@ -68,5 +68,10 @@ document.querySelector("nav").classList.add("closed-nav");
 document.querySelector("#hamburger").onclick = open;
 document.querySelector("#close").onclick = close;
 
+window.onscroll = () => {
+    if (window.scrollY <= 0) {document.querySelector('nav').classList.add("closed-nav");}
+    else {document.querySelector('nav').classList.remove("closed-nav");}
+}
+
 function open() {document.querySelector("#mobile-nav").style.right = "0";}
 function close() {document.querySelector("#mobile-nav").style.right = "-75%";}
