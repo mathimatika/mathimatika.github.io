@@ -49,6 +49,7 @@ nav, footer {
 nav {
     background-color: white;
     color: black;
+    position: fixed;
 }
 
 #content-wrapper {
@@ -64,6 +65,10 @@ footer {
     font-size: 17px;
 }
 
+nav img {
+    filter: invert(0);
+}
+
 nav a {
     color: black;
     text-decoration: none;
@@ -72,10 +77,25 @@ nav a {
     margin-left: 10px;
     white-space: nowrap;
     font-weight: 300;
+    transition: color .3s;
 }
 
 nav a:hover:not(.drop-content a):not(#nav-left a) {
     color: #2e9dff;
+}
+
+.closed-nav {
+    background-color: transparent;
+    z-index: 1;
+    color: white;
+}
+
+.closed-nav a {
+    color: white;
+}
+
+.closed-nav img {
+    filter: invert(1);
 }
 
 footer a:not(#contact a) {
