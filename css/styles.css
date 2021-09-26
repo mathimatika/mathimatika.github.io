@@ -51,6 +51,7 @@ nav {
     color: black;
     position: fixed;
     z-index: 1;
+    transition: background-color .3s;
 }
 
 #content-wrapper {
@@ -68,6 +69,7 @@ footer {
 
 nav img {
     filter: invert(0);
+    transition: filter .3s;
 }
 
 nav a {
