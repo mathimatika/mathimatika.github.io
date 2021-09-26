@@ -50,6 +50,7 @@ nav {
     background-color: white;
     color: black;
     position: fixed;
+    z-index: 1;
 }
 
 #content-wrapper {
@@ -86,7 +87,6 @@ nav a:hover:not(.drop-content a):not(#nav-left a) {
 
 .closed-nav {
     background-color: transparent;
-    z-index: 1;
     color: white;
 }
 
