@@ -63,6 +63,7 @@ const footer = `
 
 document.querySelector("nav").innerHTML = nav;
 document.querySelector("footer").innerHTML = footer;
+document.querySelector("nav").classList.add("closed-nav");
 
 document.querySelector("#hamburger").onclick = open;
 document.querySelector("#close").onclick = close;
