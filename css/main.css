@@ -1,8 +1,8 @@
 /* Styles for some specific pages */
 header {
     background-color: #192024;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
