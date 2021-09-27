@@ -68,21 +68,25 @@ document.querySelector("nav").classList.add("closed-nav");
 document.querySelector("#hamburger").onclick = open;
 document.querySelector("#close").onclick = close;
 
-const breakpoint = 1030;
 
 window.onscroll = () => {
     if (window.scrollY <= 0) {document.querySelector('nav').classList.add("closed-nav");}
     else {document.querySelector('nav').classList.remove("closed-nav");}
 }
 
-window.addEventListener('resize', () => {
-    if (window.innerWidth <= breakpoint) {
+function mediaChange(e) {
+    if (e.matches) {
         document.querySelector("#resources span").textContent = "Other";
     }
-    else if (document.querySelector("#resources span").textContent == "Other") {
+    else {
         document.querySelector("#resources span").textContent = "Other Resources";
+        console.log("changed");
     }
-});
+}
+
+const breakpoint = window.matchMedia('(max-width: 1030px)');
+breakpoint.addListener(mediaChange);
+mediaChange(breakpoint);
 
 function open() {document.querySelector("#mobile-nav").style.right = "0";}
 function close() {document.querySelector("#mobile-nav").style.right = "-75%";}
