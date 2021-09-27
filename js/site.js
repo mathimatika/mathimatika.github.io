@@ -71,7 +71,7 @@ document.querySelector("#close").onclick = close;
 
 window.onscroll = () => {
     if (window.scrollY <= 0) {document.querySelector('nav').classList.add("closed-nav");}
-    else {document.querySelector('nav').classList.remove("closed-nav");}
+    else if (window.scrollY >= 10) {document.querySelector('nav').classList.remove("closed-nav");}
 }
 
 function mediaChange(e) {
