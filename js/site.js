@@ -80,7 +80,6 @@ function mediaChange(e) {
     }
     else {
         document.querySelector("#resources span").textContent = "Other Resources";
-        console.log("changed");
     }
 }
 
