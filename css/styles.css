@@ -274,7 +274,10 @@ footer a:not(#contact a) {
     #close, #hamburger {
         display: flex;
     }
-    #hamburger span {background-color: black;}
+    #hamburger span {
+        background-color: black;
+        transition: background-color .3s;
+    }
     .closed-nav #hamburger span {background-color: white;}
     
     #mobile-nav {
