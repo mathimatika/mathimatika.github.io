@@ -51,7 +51,10 @@ nav {
     color: black;
     position: fixed;
     z-index: 1;
-    transition: background-color .3s;
+    transition:
+        background-color .3s,
+        box-shadow .3s;
+    box-shadow: 0 10px 5px 0px #eee;
 }
 
 #content-wrapper {
@@ -90,6 +93,7 @@ nav a:hover:not(.drop-content a):not(#nav-left a) {
 .closed-nav {
     background-color: transparent;
     color: white;
+    box-shadow: none;
 }
 
 .closed-nav a {
