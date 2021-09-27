@@ -274,6 +274,9 @@ footer a:not(#contact a) {
     #close, #hamburger {
         display: flex;
     }
+    #hamburger {color: black;}
+    .closed-nav #hamburger {color: white;}
+    
     #mobile-nav {
         display: flex;
         flex-direction: column;
@@ -301,5 +304,10 @@ footer a:not(#contact a) {
         margin: 0;
         text-transform: uppercase;
         transition: color .2s ease;
+    }
+    
+    .dropdown {
+        margin-left: 0px;
+        color: white;
     }
 }
