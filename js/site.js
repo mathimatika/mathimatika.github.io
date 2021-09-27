@@ -79,6 +79,9 @@ window.addEventListener('resize', () => {
     if (window.innerWidth < breakpoint) {
         document.querySelector("#resources span").textContent = "Other";
     }
+    else if (document.querySelector("#resources span").textContent == "Other") {
+        document.querySelector("#resources span").textContent = "Other Resources";
+    }
 });
 
 function open() {document.querySelector("#mobile-nav").style.right = "0";}
