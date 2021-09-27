@@ -31,7 +31,7 @@ const nav = `
                 </li>
                 <li>
                     <div id="resources" class="dropdown">
-                        Other resources
+                        <span>Other resources</span>
                         <div id="tri"></div>
                         <div class="drop-content">
                             <a href="/handouts">Handouts</a>
@@ -68,10 +68,18 @@ document.querySelector("nav").classList.add("closed-nav");
 document.querySelector("#hamburger").onclick = open;
 document.querySelector("#close").onclick = close;
 
+const breakpoint = 1030;
+
 window.onscroll = () => {
     if (window.scrollY <= 0) {document.querySelector('nav').classList.add("closed-nav");}
     else {document.querySelector('nav').classList.remove("closed-nav");}
 }
+
+window.addEventListener('resize', () => {
+    if (window.innerWidth < breakpoint) {
+        document.querySelector("#resources span").textContent = "Other";
+    }
+});
 
 function open() {document.querySelector("#mobile-nav").style.right = "0";}
 function close() {document.querySelector("#mobile-nav").style.right = "-75%";}
