@@ -62,7 +62,7 @@ const footer = `
 `;
 
 document.querySelector("nav").innerHTML = nav;
-document.querySelector("footer").innerHTML = footer;
+if (!f) {document.querySelector("footer").innerHTML = footer;}
 document.querySelector("nav").classList.add("closed-nav");
 
 document.querySelector("#hamburger").onclick = open;
