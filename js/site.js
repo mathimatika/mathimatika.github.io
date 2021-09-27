@@ -76,7 +76,7 @@ window.onscroll = () => {
 }
 
 window.addEventListener('resize', () => {
-    if (window.innerWidth < breakpoint) {
+    if (window.innerWidth <= breakpoint) {
         document.querySelector("#resources span").textContent = "Other";
     }
     else if (document.querySelector("#resources span").textContent == "Other") {
