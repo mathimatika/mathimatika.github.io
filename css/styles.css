@@ -25,6 +25,8 @@ a:hover {
 }
 #nav-wrapper {
     width: 65%;
+    padding: 5px;
+    transition: padding .3s;
 }
 #nav-right {
     margin-left: auto;
@@ -72,7 +74,8 @@ footer {
 
 nav img {
     filter: invert(0);
-    transition: filter .3s;
+    width: 35px;
+    transition: filter .3s, width .3s;
 }
 
 nav a {
@@ -96,12 +99,17 @@ nav a:hover:not(.drop-content a):not(#nav-left a) {
     box-shadow: none;
 }
 
+.closed-nav #nav-wrapper {
+    padding: 10px;
+}
+
 .closed-nav a {
     color: white;
 }
 
 .closed-nav img {
     filter: invert(1);
+    width: 50px;
 }
 
 footer a:not(#contact a) {
