@@ -1,3 +1,5 @@
+document.querySelector("footer").remove();
+
 const msg = [
     "404 can be expressed as the sum of two perfect squares",
     "404 = 2<sup>2</sup> × 101",
