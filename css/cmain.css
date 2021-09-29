@@ -42,7 +42,7 @@
 .contest .btn:hover {
     background-color: #232023;
 }
-#cwrap {
+.cwrap {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
