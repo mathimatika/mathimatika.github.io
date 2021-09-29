@@ -22,6 +22,8 @@
     padding: 40px;
     background-color: rgb(66, 68, 84);
     color: white;
+    margin: 40px;
+    max-width: calc(50% - 80px);
 }
 
 .contest h2 {
@@ -40,6 +42,13 @@
 .contest .btn:hover {
     background-color: #232023;
 }
+.cwrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 800px) {
     #main {
         width: 95%;
