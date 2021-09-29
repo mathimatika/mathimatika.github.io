@@ -38,6 +38,12 @@
     justify-content: center;
 }
 
+.contest {
+    border-radius: 6px;
+    padding: 40px;
+    background-color: #353849;
+}
+
 @media only screen and (max-width: 800px) {
     #main {
         width: 95%;
