@@ -9,27 +9,6 @@
     font-weight: bold;
 }
 
-
-#main .ubtn {
-    color: white;
-    background-color: #00008b;
-    border-color: #00008b;
-}
-#main .hbutton {
-    border-color: #00008b;
-    color: #00008b;
-    transition: color .3s ease, background-color .3s ease;
-}
-#main .hbutton:hover {
-    background-color: #00008b;
-    color: white;
-}
-
-#main .ubtn:hover {
-    color: #00008b;
-    background-color: transparent;
-}
-
 #main p {text-align: center;}
 
 .btns {
@@ -50,7 +29,17 @@
     padding-bottom: 30px;
     border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 }
+.contest .btn {
+    padding: .6rem 1.2rem;
+    color: white;
+    background-color: #373737;
+    border-radius: 4px;
+    transition: background-color .2s;
+}
 
+.contest .btn:hover {
+    background-color: #232023;
+}
 @media only screen and (max-width: 800px) {
     #main {
         width: 95%;
