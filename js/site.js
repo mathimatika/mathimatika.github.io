@@ -32,7 +32,7 @@ const nav = `
                 <li>
                     <div id="resources" class="dropdown">
                         <span>Other resources</span>
-                        <div id="tri"></div>
+                        <!--<div id="tri"></div>-->
                         <div class="drop-content">
                             <a href="/handouts">Handouts</a>
                             <!--<a href="/math-club">Math club</a>-->
@@ -68,6 +68,15 @@ document.querySelector("nav").classList.add("closed-nav");
 document.querySelector("#hamburger").onclick = open;
 document.querySelector("#close").onclick = close;
 
+
+window.onclick = (e) => {
+    if (e.target.matches("#resources")) {
+        document.querySelector("#resources .drop-content").style.display = 'block';
+    }
+    else if (!e.target.matches("#resources .drop-content")) {
+        document.querySelector("#resources .drop-content").style.display = 'none';
+    }
+}
 
 window.onscroll = () => {
     if (window.scrollY <= 0) {document.querySelector('nav').classList.add("closed-nav");}
