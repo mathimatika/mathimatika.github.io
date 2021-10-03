@@ -32,7 +32,7 @@ const nav = `
                 <li>
                     <div id="resources" class="dropdown">
                         <span>Other resources</span>
-                        <!--<div id="tri"></div>-->
+                        <div id="tri"></div>
                         <div class="drop-content">
                             <a href="/handouts">Handouts</a>
                             <!--<a href="/math-club">Math club</a>-->
