@@ -162,8 +162,10 @@ footer a:not(#contact a) {
     position: absolute;
     z-index: 3;
     margin-top: 24px;
+    box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
 }
 
+/*
 #tri {
     width: 0px;
     height: 0px;
@@ -177,13 +179,13 @@ footer a:not(#contact a) {
     transition: opacity .3s ease;
     display: none;
 }
-
+*/
 .dropdown .drop-content a {
     display: block;
     margin: 5px;
     color: white;
 }
-
+/*
 .dropdown:hover .drop-content, .dropdown:hover #tri {
     display: block;
     opacity: 1;
@@ -193,7 +195,7 @@ footer a:not(#contact a) {
     overflow: visible;
     height: auto;
     padding: 15px;
-}
+}*/
 
 #contact {
     display: block;
