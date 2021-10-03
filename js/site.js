@@ -68,13 +68,18 @@ document.querySelector("nav").classList.add("closed-nav");
 document.querySelector("#hamburger").onclick = open;
 document.querySelector("#close").onclick = close;
 
-
+const dropdown = document.querySelector("#resources .drop-content");
 window.onclick = (e) => {
     if (e.target.matches("#resources") || e.target.matches("#resources span")) {
-        document.querySelector("#resources .drop-content").style.display = 'block';
+        if (dropdown.style.display == "block") {
+            dropdown.style.display = 'none';
+        }
+        else {
+            dropdown.style.display = 'block';
+        }
     }
     else if (!e.target.matches("#resources .drop-content")) {
-        document.querySelector("#resources .drop-content").style.display = 'none';
+        dropdown.style.display = 'none';
     }
 }
 
