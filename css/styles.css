@@ -155,14 +155,11 @@ footer a:not(#contact a) {
 }
 
 .dropdown .drop-content {
-    /*opacity: 0;
-    height: 0;
-    overflow: hidden;*/
     display: none;
     background-color: #088286;
     position: absolute;
     z-index: 3;
-    margin-top: 24px;
+    margin-top: 13px;
     box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
 }
 
