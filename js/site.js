@@ -70,7 +70,7 @@ document.querySelector("#close").onclick = close;
 
 
 window.onclick = (e) => {
-    if (e.target.matches("#resources")) {
+    if (e.target.matches("#resources") || e.target.matches("#resources span")) {
         document.querySelector("#resources .drop-content").style.display = 'block';
     }
     else if (!e.target.matches("#resources .drop-content")) {
