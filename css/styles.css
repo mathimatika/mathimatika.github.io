@@ -161,39 +161,25 @@ footer a:not(#contact a) {
     z-index: 3;
     margin-top: 13px;
     box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+    padding: 5px;
 }
 
-/*
+
 #tri {
     width: 0px;
     height: 0px;
-    border-top: 12px solid transparent;
+    border-top: 12px solid white;
     border-right: 12px solid transparent;
     border-left: 12px solid transparent;
-    border-bottom: 12px solid #088286;
-    position: absolute;
-    left: calc(50% - 12px);
-    opacity: 0;
-    transition: opacity .3s ease;
-    display: none;
+    border-bottom: 12px solid transparent;
+    display: inline-block;
 }
-*/
+
 .dropdown .drop-content a {
     display: block;
     margin: 5px;
     color: white;
 }
-/*
-.dropdown:hover .drop-content, .dropdown:hover #tri {
-    display: block;
-    opacity: 1;
-}
-
-.dropdown:hover .drop-content {
-    overflow: visible;
-    height: auto;
-    padding: 15px;
-}*/
 
 #contact {
     display: block;
