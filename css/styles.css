@@ -18,6 +18,12 @@ a:hover {
     box-sizing: border-box;
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #nav-wrapper, #footer-wrapper {
     display: flex;
     align-items: center;
