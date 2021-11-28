@@ -216,6 +216,9 @@ header blockquote {
     header blockquote {
         font-size: 14px;
     }
+    .title, #uhead {
+        letter-spacing: 0px;
+    }
 }
 
 
