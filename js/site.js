@@ -89,11 +89,19 @@ window.onscroll = () => {
 }
 
 function mediaChange(e) {
+    document.querySelector("#resources").remove();
     if (e.matches) {
-        document.querySelector("#resources span").textContent = "Other";
+        document.querySelector("#mobile-nav li:last-of-type").innerHTML = '<a href="/resources" id="resources">Other</a>';
     }
     else {
-        document.querySelector("#resources span").textContent = "Other Resources";
+        document.querySelector("#mobile-nav li:last-of-type").innerHTML = `<div id="resources" class="dropdown">
+                        <span>Other resources</span>
+                        <div id="tri"></div>
+                        <div class="drop-content">
+                            <a href="/handouts">Handouts</a>
+                            <!--<a href="/math-club">Math club</a>-->
+                        </div>
+                    </div>`;
     }
 }
 
