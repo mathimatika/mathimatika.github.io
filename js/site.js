@@ -77,7 +77,7 @@ function drop(e) {
             dropdown.style.display = "block";
         }
     }
-    else if (!e.target.matches("#resources .drop-content") || !e.target.matches("#resources a")) {
+    else if (!e.target.matches("#resources .drop-content") && !e.target.matches("#resources a")) {
         dropdown.style.display = "none";
     }
 }
