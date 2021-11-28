@@ -68,7 +68,7 @@ document.querySelector("#close").onclick = close;
 
 const dropdown = document.querySelector("#resources .drop-content");
 
-function dropdown(e) {
+function drop(e) {
     if (e.target.matches("#resources") || e.target.matches("#resources span")) {
         if (dropdown.style.display == "block") {
             dropdown.style.display = "none";
@@ -82,8 +82,8 @@ function dropdown(e) {
     }
 }
 
-window.onclick = dropdown;
-window.ontouchend = dropdown;
+window.onclick = drop;
+window.ontouchend = drop;
 
 window.onscroll = () => {
     if (window.scrollY <= 0) {document.querySelector('nav').classList.add("closed-nav");}
