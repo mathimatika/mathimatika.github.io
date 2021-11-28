@@ -32,10 +32,8 @@ const nav = `
                 <li>
                     <div id="resources" class="dropdown">
                         <span>Other resources</span>
-                        <div id="tri"></div>
                         <div class="drop-content">
                             <a href="/handouts">Handouts</a>
-                            <!--<a href="/math-club">Math club</a>-->
                         </div>
                     </div>
                 </li>
@@ -69,19 +67,23 @@ document.querySelector("#hamburger").onclick = open;
 document.querySelector("#close").onclick = close;
 
 const dropdown = document.querySelector("#resources .drop-content");
-window.onclick = (e) => {
+
+function dropdown(e) {
     if (e.target.matches("#resources") || e.target.matches("#resources span")) {
         if (dropdown.style.display == "block") {
-            dropdown.style.display = 'none';
+            dropdown.style.display = "none";
         }
         else {
-            dropdown.style.display = 'block';
+            dropdown.style.display = "block";
         }
     }
     else if (!e.target.matches("#resources .drop-content")) {
-        dropdown.style.display = 'none';
+        dropdown.style.display = "none";
     }
 }
+
+window.onclick = dropdown;
+window.ontouchend = dropdown;
 
 window.onscroll = () => {
     if (window.scrollY <= 0) {document.querySelector('nav').classList.add("closed-nav");}
@@ -89,19 +91,11 @@ window.onscroll = () => {
 }
 
 function mediaChange(e) {
-    document.querySelector("#resources").remove();
     if (e.matches) {
-        document.querySelector("#mobile-nav li:last-of-type").innerHTML = '<a href="/resources" id="resources">Other</a>';
+        document.querySelector("#resources span").textContent = "Other";
     }
     else {
-        document.querySelector("#mobile-nav li:last-of-type").innerHTML = `<div id="resources" class="dropdown">
-                        <span>Other resources</span>
-                        <div id="tri"></div>
-                        <div class="drop-content">
-                            <a href="/handouts">Handouts</a>
-                            <!--<a href="/math-club">Math club</a>-->
-                        </div>
-                    </div>`;
+        document.querySelector("#resources span").textContent = "Other Resources";
     }
 }
 
