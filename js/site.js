@@ -69,7 +69,7 @@ document.querySelector("#close").onclick = close;
 const dropdown = document.querySelector("#resources .drop-content");
 
 function drop(e) {
-    if (e.target.matches("#resources") || e.target.matches("#resources span") || e.target.matches("#resources a")) {
+    if (e.target.matches("#resources") || e.target.matches("#resources span")) {
         if (dropdown.style.display == "block") {
             dropdown.style.display = "none";
         }
@@ -77,7 +77,7 @@ function drop(e) {
             dropdown.style.display = "block";
         }
     }
-    else if (!e.target.matches("#resources .drop-content")) {
+    else if (!e.target.matches("#resources .drop-content") || !e.target.matches("#resources a")) {
         dropdown.style.display = "none";
     }
 }
