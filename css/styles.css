@@ -308,4 +308,11 @@ footer a:not(#contact a) {
         color: white;
         text-transform: uppercase;
     }
+    .dropdown .drop-content {
+        background-color: transparent;
+        position: static;
+        box-shadow: none;
+        padding: 0;
+        font-size: 18px;
+    }
 }
