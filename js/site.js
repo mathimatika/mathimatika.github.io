@@ -69,7 +69,7 @@ document.querySelector("#close").onclick = close;
 const dropdown = document.querySelector("#resources .drop-content");
 
 function drop(e) {
-    if (e.target.matches("#resources") || e.target.matches("#resources span")) {
+    if (e.target.matches("#resources") || e.target.matches("#resources span") || e.target.matches("#resources a")) {
         if (dropdown.style.display == "block") {
             dropdown.style.display = "none";
         }
