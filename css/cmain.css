@@ -37,6 +37,7 @@
     background-color: #373737;
     border-radius: 4px;
     transition: background-color .2s;
+    margin: 5px;
 }
 
 .contest .btn:hover {
