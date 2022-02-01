@@ -15,6 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contest {
@@ -38,6 +39,7 @@
     border-radius: 4px;
     transition: background-color .2s;
     margin: 5px;
+    white-space: nowrap;
 }
 
 .contest .btn:hover {
