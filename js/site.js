@@ -27,9 +27,6 @@ const nav = `
                     <a href="/contests">Contests</a>
                 </li>
                 <li>
-                    <a href="/sponsors">Sponsors</a>
-                </li>
-                <li>
                     <div id="resources" class="dropdown">
                         <span>Other resources</span>
                         <div class="drop-content">
