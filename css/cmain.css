@@ -24,7 +24,7 @@
     background-color: rgb(66, 68, 84);
     color: white;
     margin: 40px;
-    max-width: calc(50% - 80px);
+    max-width: 70%;
 }
 
 .contest h2 {
