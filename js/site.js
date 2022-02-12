@@ -24,13 +24,13 @@ const nav = `
                     <a href="/about">Our Team</a>
                 </li>
                 <li>
-                    <a href="#">Math Club</a>
+                    <a href="/coming-soon">Math Club</a>
                 </li>
                 <li>
                     <div id="resources" class="dropdown">
                         <span>Other resources</span>
                         <div class="drop-content">
-                            <a href="/handouts">Handouts</a>
+                            <a href="/coming-soon">Handouts</a>
                             <a href="/contests">Archives</a>
                         </div>
                     </div>
