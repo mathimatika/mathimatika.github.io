@@ -1,5 +1,5 @@
 # mathimatika.github.io
-Backup website for mathimatika
+Mathimatika's official site.
 
 ## Image sources
 - Home page header background is from [pngtree.com](https://pngtree.com/free-backgrounds)
