@@ -54,49 +54,6 @@ body  {
     background-color: #edeff2;
 }
 
-#main p {text-align: center;}
-
-.btns {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.contest {
-    border-radius: 6px;
-    padding: 40px;
-    background-color: rgb(66, 68, 84);
-    color: white;
-    margin: 40px;
-    max-width: 70%;
-}
-
-.contest h2 {
-    margin: 0;
-    padding-bottom: 30px;
-    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-}
-.contest .btn {
-    padding: .6rem 1.2rem;
-    color: white;
-    background-color: #373737;
-    border-radius: 4px;
-    transition: background-color .2s;
-    margin: 5px;
-    white-space: nowrap;
-}
-
-.contest .btn:hover {
-    background-color: #232023;
-}
-.cwrap {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
 /* Mobile breakpoints */
 @media only screen and (max-width: 800px) {
     .header {
