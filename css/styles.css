@@ -314,5 +314,10 @@ footer a:not(#contact a) {
         box-shadow: none;
         padding: 0;
         font-size: 18px;
+        border-left: 2px solid white;
+        padding-right: 10px;
+    }
+    .dropdown .drop-content a {
+        margin: 5px;
     }
 }
