@@ -317,7 +317,7 @@ footer a:not(#contact a) {
         border-left: 2px solid white;
         padding-right: 10px;
     }
-    .dropdown .drop-content a {
+    #mobile-nav .dropdown .drop-content a {
         margin: 5px;
     }
 }
