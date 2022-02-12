@@ -1,1 +1,64 @@
+#main p {text-align: center;}
 
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-radius: 6px;
+    padding: 40px;
+    background-color: rgb(66, 68, 84);
+    color: white;
+    margin: 40px;
+    max-width: 70%;
+}
+
+.card h2 {
+    margin: 0;
+    padding-bottom: 30px;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+}
+.card .btn {
+    padding: .6rem 1.2rem;
+    color: white;
+    background-color: #373737;
+    border-radius: 4px;
+    transition: background-color .2s;
+    margin: 5px;
+    white-space: nowrap;
+}
+
+.card .btn:hover {
+    background-color: #232023;
+}
+.cwrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contest {max-width: 90%;}
+}
+
+@media only screen and (max-width: 800px) {
+    #main {
+        width: 95%;
+    }
+    .contest {
+        max-width: 100%;
+        margin: 10px;
+    }
+}
