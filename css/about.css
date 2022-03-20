@@ -14,18 +14,21 @@
     padding: 20px;
 }
 
-.card-inner {
+.card-inner, .card-wrapper a {
     padding: 40px;
     background-color: white;
     border-radius: 32px;
     transition: box-shadow 400ms ease, background-color 400ms ease;
     text-align: center;
-    height: 400px;
-    width: 400px;
+}
+
+.card-inner {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 400px;
+    width: 400px;
 }
 
 .card-inner.testsolver {
@@ -73,7 +76,7 @@
     font-size: 13px;
 }
 
-.card-inner:hover {
+.card-inner:hover, .card-wrapper a:hover {
     box-shadow: 7px 7px 13px -7px #333;
     background-color: #e0e0e0;
 }
