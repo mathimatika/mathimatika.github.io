@@ -26,6 +26,7 @@
     background-color: black;
     border-radius: 70px;
     transition: box-shadow 400ms ease;
+    color: white;
 }
 
 .card-wrapper a {
