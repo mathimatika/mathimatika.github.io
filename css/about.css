@@ -23,6 +23,12 @@
 }
 
 .card-wrapper a {
+    background-color: black;
+    border-radius: 70px;
+    transition: box-shadow 400ms ease;
+}
+
+.card-wrapper a {
     margin: 10px;
 }
 
@@ -84,6 +90,8 @@
     box-shadow: 7px 7px 13px -7px #333;
     background-color: #e0e0e0;
 }
+
+.card-wrapper a:hover {background-color: black;}
 
 .card-inner:hover .ur-wrapper {
     transform: translateY(-35px);
