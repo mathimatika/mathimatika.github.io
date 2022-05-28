@@ -28,10 +28,10 @@ const nav = `
                 </li>
                 <li>
                     <div id="resources" class="dropdown">
-                        <span>Other resources</span>
+                        <span>Archives</span>
                         <div class="drop-content">
                             <a href="/coming-soon">Handouts</a>
-                            <a href="/contests">Archives</a>
+                            <a href="/contests">Past Contests</a>
                         </div>
                     </div>
                 </li>
@@ -88,7 +88,7 @@ window.onscroll = () => {
     else if (window.scrollY >= 10) {document.querySelector('nav').classList.remove("closed-nav");}
 }
 
-function mediaChange(e) {
+/*function mediaChange(e) {
     if (e.matches) {
         document.querySelector("#resources span").textContent = "Other";
     }
@@ -99,7 +99,7 @@ function mediaChange(e) {
 
 const breakpoint = window.matchMedia('(max-width: 1030px)');
 breakpoint.addListener(mediaChange);
-mediaChange(breakpoint);
+mediaChange(breakpoint);*/
 
 function open() {document.querySelector("#mobile-nav").style.right = "0";}
 function close() {document.querySelector("#mobile-nav").style.right = "-75%";}
